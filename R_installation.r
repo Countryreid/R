@@ -41,4 +41,20 @@ array(c(1,2,3,4,5,6,7,8,9,0,9,8,7,6,5,4,3,2,1), c( 3, 2, 3))
 array(c(1,2,3,4,5,6,7,8,9,0,9,8,7,6,5,4,3,2,1), c( 3, 2, 4))
 # if you do not provide more numbers it will just reuse numbers already used. It will start back at the beginning
 
+age <- c(45,46,43,32,48)
+id <- c("d", "f", "g", "h", "k")
+weight <- c(150,200,240,160,120)
+
+set <- data.frame(id, age, weight)
+print(set)
+sd(weight)
+print(set[,c("age","weight")])
+
+for(person in age){
+    if (person < 40){
+        print("you have time")} else {print("You are aging fast")}
+    }
+
+
+
 
