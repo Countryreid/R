@@ -7,14 +7,12 @@
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/IvOiiF_0qR4)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 * R 
 
-{Describe the programming language that you used and any libraries.}
 I used the traditional r language
 Radian
 httpgd for graphics
@@ -29,8 +27,7 @@ httpgd for graphics
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I need to fix the importing of CSV
+- I need to learn why my for loop needs a fresh terminal to work. 
+- I would like to have a large continuous working software
