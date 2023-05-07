@@ -52,9 +52,10 @@ print(set[,c("age","weight")])
 
 for(person in age){
     if (person < 40){
-        print("you have time")} else {print("You are aging fast")}
+        print("you have time") } else {print("You are aging fast")}
+    
     }
 
 
-
-
+loaded_data <- read.csv(file = paste0(path, "C:\\Users\\gmcme\\Desktop\\Biggest_Loser_for_r_program.csv"))
+# attempt to add a csv file. Problems locating path. 
